@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "world-f747fbe8978d4c8b",
+  "name": "花间小屋",
+  "tagline": "花园里的面包香，和自己的慢时光。",
+  "environment": "garden",
+  "palette": {
+    "sky": "#eee7f0",
+    "ground": "#cad6ab",
+    "wall": "#fff4df",
+    "roof": "#b6a8c9",
+    "accent": "#e9a5ad"
+  },
+  "house": {
+    "name": "Flower Cottage"
+  },
+  "shop": {
+    "name": "Little Bakery",
+    "kind": "bakery",
+    "color": "#beabc9"
+  },
+  "characters": [
+    {
+      "id": "friend-bunny",
+      "name": "小棉",
+      "kind": "bunny",
+      "color": "#fff1dd",
+      "i18n": {
+        "en": {
+          "name": "Cotton"
+        },
+        "ja": {
+          "name": "コットン"
+        }
+      }
+    },
+    {
+      "id": "friend-bear",
+      "name": "小麦",
+      "kind": "bear",
+      "color": "#cfa27c",
+      "i18n": {
+        "en": {
+          "name": "Wheat"
+        },
+        "ja": {
+          "name": "ムギ"
+        }
+      }
+    }
+  ],
+  "menu": [
+    {
+      "id": "honey-bun",
+      "name": "蜂蜜小面包",
+      "color": "#e7bb76",
+      "i18n": {
+        "en": {
+          "name": "Honey bun"
+        },
+        "ja": {
+          "name": "はちみつパン"
+        }
+      }
+    },
+    {
+      "id": "berry-bun",
+      "name": "莓果点心",
+      "color": "#d59c98",
+      "i18n": {
+        "en": {
+          "name": "Berry treat"
+        },
+        "ja": {
+          "name": "ベリーのお菓子"
+        }
+      }
+    }
+  ],
+  "decor": [
+    {
+      "id": "plant-one",
+      "name": "窗边绿植",
+      "kind": "plant",
+      "color": "#8db897",
+      "x": -4.8,
+      "z": 1.4,
+      "i18n": {
+        "en": {
+          "name": "Window plant"
+        },
+        "ja": {
+          "name": "窓辺のグリーン"
+        }
+      }
+    },
+    {
+      "id": "flower-one",
+      "name": "一束小花",
+      "kind": "flower",
+      "color": "#eda5b5",
+      "x": -1.3,
+      "z": 2.8,
+      "i18n": {
+        "en": {
+          "name": "Little bouquet"
+        },
+        "ja": {
+          "name": "小さな花束"
+        }
+      }
+    },
+    {
+      "id": "cushion-one",
+      "name": "软软坐垫",
+      "kind": "cushion",
+      "color": "#e6bf86",
+      "x": -0.2,
+      "z": 3.3,
+      "i18n": {
+        "en": {
+          "name": "Soft cushion"
+        },
+        "ja": {
+          "name": "ふかふかクッション"
+        }
+      }
+    },
+    {
+      "id": "book-one",
+      "name": "日常小本子",
+      "kind": "book",
+      "color": "#87b4c3",
+      "x": -3.2,
+      "z": 3.8,
+      "i18n": {
+        "en": {
+          "name": "Everyday notebook"
+        },
+        "ja": {
+          "name": "日々のノート"
+        }
+      }
+    }
+  ],
+  "memoryPrompt": "今天，想留住哪件小事？",
+  "i18n": {
+    "en": {
+      "name": "Flower Cottage",
+      "tagline": "Warm bread in the garden. A slower kind of day.",
+      "memoryPrompt": "What little moment would you like to keep?"
+    },
+    "ja": {
+      "name": "花の小屋",
+      "tagline": "庭に漂うパンの香り。自分だけのゆっくりした時間。",
+      "memoryPrompt": "今日はどんな小さなことを残そう？"
+    }
+  }
+}

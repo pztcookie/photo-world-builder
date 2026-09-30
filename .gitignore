@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*-backup.json
+*-recovery.json
+# Keep personal source photos out of the shared demos.
+examples/*/references/

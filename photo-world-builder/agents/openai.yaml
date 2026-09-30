@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo World Builder · 照片小世界"
+  short_description: "Turn photos into a playable world · 中文 / English / 日本語"
+  default_prompt: "Use $photo-world-builder to build my playable little world from these photos, and respond in my language."

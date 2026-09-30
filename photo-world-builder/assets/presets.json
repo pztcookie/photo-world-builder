@@ -1,0 +1,505 @@
+{
+  "coast": {
+    "schemaVersion": 1,
+    "id": "world-starter",
+    "name": "我的小世界",
+    "tagline": "把喜欢的日常，留在这里。",
+    "environment": "coast",
+    "palette": {
+      "sky": "#dcecec",
+      "ground": "#bfd9b0",
+      "wall": "#fff1d7",
+      "roof": "#91bbc7",
+      "accent": "#eead87"
+    },
+    "house": {
+      "name": "Little Home"
+    },
+    "shop": {
+      "name": "Sunny Scoops",
+      "kind": "icecream",
+      "color": "#64b9d7"
+    },
+    "characters": [
+      {
+        "id": "friend-bunny",
+        "name": "小棉",
+        "kind": "bunny",
+        "color": "#fff1dd",
+        "i18n": {
+          "en": {
+            "name": "Cotton"
+          },
+          "ja": {
+            "name": "コットン"
+          }
+        }
+      },
+      {
+        "id": "friend-bear",
+        "name": "小麦",
+        "kind": "bear",
+        "color": "#cfa27c",
+        "i18n": {
+          "en": {
+            "name": "Wheat"
+          },
+          "ja": {
+            "name": "ムギ"
+          }
+        }
+      }
+    ],
+    "menu": [
+      {
+        "id": "vanilla",
+        "name": "香草雪糕",
+        "color": "#fff2d9",
+        "i18n": {
+          "en": {
+            "name": "Vanilla scoop"
+          },
+          "ja": {
+            "name": "バニラアイス"
+          }
+        }
+      },
+      {
+        "id": "strawberry",
+        "name": "草莓雪糕",
+        "color": "#eda5b5",
+        "i18n": {
+          "en": {
+            "name": "Strawberry scoop"
+          },
+          "ja": {
+            "name": "いちごアイス"
+          }
+        }
+      },
+      {
+        "id": "mint-scoop",
+        "name": "薄荷雪糕",
+        "color": "#b6d9c2",
+        "i18n": {
+          "en": {
+            "name": "Mint scoop"
+          },
+          "ja": {
+            "name": "ミントアイス"
+          }
+        }
+      }
+    ],
+    "decor": [
+      {
+        "id": "plant-one",
+        "name": "窗边绿植",
+        "kind": "plant",
+        "color": "#8db897",
+        "x": -4.8,
+        "z": 1.4,
+        "i18n": {
+          "en": {
+            "name": "Window plant"
+          },
+          "ja": {
+            "name": "窓辺のグリーン"
+          }
+        }
+      },
+      {
+        "id": "flower-one",
+        "name": "一束小花",
+        "kind": "flower",
+        "color": "#eda5b5",
+        "x": -1.3,
+        "z": 2.8,
+        "i18n": {
+          "en": {
+            "name": "Little bouquet"
+          },
+          "ja": {
+            "name": "小さな花束"
+          }
+        }
+      },
+      {
+        "id": "cushion-one",
+        "name": "软软坐垫",
+        "kind": "cushion",
+        "color": "#e6bf86",
+        "x": -0.2,
+        "z": 3.3,
+        "i18n": {
+          "en": {
+            "name": "Soft cushion"
+          },
+          "ja": {
+            "name": "ふかふかクッション"
+          }
+        }
+      },
+      {
+        "id": "book-one",
+        "name": "日常小本子",
+        "kind": "book",
+        "color": "#87b4c3",
+        "x": -3.2,
+        "z": 3.8,
+        "i18n": {
+          "en": {
+            "name": "Everyday notebook"
+          },
+          "ja": {
+            "name": "日々のノート"
+          }
+        }
+      }
+    ],
+    "memoryPrompt": "今天，想留住哪件小事？",
+    "i18n": {
+      "en": {
+        "name": "My Little World",
+        "tagline": "Keep the little things you love, right here.",
+        "memoryPrompt": "What little moment would you like to keep?"
+      },
+      "ja": {
+        "name": "わたしの小さな世界",
+        "tagline": "大好きな日常を、ここに。",
+        "memoryPrompt": "今日はどんな小さなことを残そう？"
+      }
+    }
+  },
+  "tea": {
+    "schemaVersion": 1,
+    "id": "world-starter",
+    "name": "我的小世界",
+    "tagline": "一壶茶，几盘点心，和喜欢的伙伴。",
+    "environment": "tea",
+    "palette": {
+      "sky": "#eee7db",
+      "ground": "#cbd6b0",
+      "wall": "#f7ead5",
+      "roof": "#759b88",
+      "accent": "#bd7776"
+    },
+    "house": {
+      "name": "Spring Cottage"
+    },
+    "shop": {
+      "name": "Little Tea House",
+      "kind": "tea",
+      "color": "#b98a74"
+    },
+    "characters": [
+      {
+        "id": "friend-bunny",
+        "name": "小棉",
+        "kind": "bunny",
+        "color": "#fff1dd",
+        "i18n": {
+          "en": {
+            "name": "Cotton"
+          },
+          "ja": {
+            "name": "コットン"
+          }
+        }
+      },
+      {
+        "id": "friend-bear",
+        "name": "团团",
+        "kind": "cat",
+        "color": "#cfaa8b",
+        "i18n": {
+          "en": {
+            "name": "Dumpling"
+          },
+          "ja": {
+            "name": "まる"
+          }
+        }
+      }
+    ],
+    "menu": [
+      {
+        "id": "osmanthus",
+        "name": "桂花糕",
+        "color": "#f1d393",
+        "i18n": {
+          "en": {
+            "name": "Osmanthus cake"
+          },
+          "ja": {
+            "name": "キンモクセイのお菓子"
+          }
+        }
+      },
+      {
+        "id": "redbean",
+        "name": "红豆糕",
+        "color": "#b97779",
+        "i18n": {
+          "en": {
+            "name": "Red bean cake"
+          },
+          "ja": {
+            "name": "あずきのお菓子"
+          }
+        }
+      },
+      {
+        "id": "matcha",
+        "name": "抹茶糕",
+        "color": "#b2c683",
+        "i18n": {
+          "en": {
+            "name": "Matcha cake"
+          },
+          "ja": {
+            "name": "抹茶のお菓子"
+          }
+        }
+      }
+    ],
+    "decor": [
+      {
+        "id": "plant-one",
+        "name": "窗边绿植",
+        "kind": "plant",
+        "color": "#8db897",
+        "x": -4.8,
+        "z": 1.4,
+        "i18n": {
+          "en": {
+            "name": "Window plant"
+          },
+          "ja": {
+            "name": "窓辺のグリーン"
+          }
+        }
+      },
+      {
+        "id": "flower-one",
+        "name": "一束小花",
+        "kind": "flower",
+        "color": "#cf7e78",
+        "x": -1.3,
+        "z": 2.8,
+        "i18n": {
+          "en": {
+            "name": "Little bouquet"
+          },
+          "ja": {
+            "name": "小さな花束"
+          }
+        }
+      },
+      {
+        "id": "cushion-one",
+        "name": "软软坐垫",
+        "kind": "cushion",
+        "color": "#e6bf86",
+        "x": -0.2,
+        "z": 3.3,
+        "i18n": {
+          "en": {
+            "name": "Soft cushion"
+          },
+          "ja": {
+            "name": "ふかふかクッション"
+          }
+        }
+      },
+      {
+        "id": "book-one",
+        "name": "日常小本子",
+        "kind": "book",
+        "color": "#87b4c3",
+        "x": -3.2,
+        "z": 3.8,
+        "i18n": {
+          "en": {
+            "name": "Everyday notebook"
+          },
+          "ja": {
+            "name": "日々のノート"
+          }
+        }
+      }
+    ],
+    "memoryPrompt": "今天，想留住哪件小事？",
+    "i18n": {
+      "en": {
+        "name": "My Little World",
+        "tagline": "A pot of tea, little treats, and your favorite company.",
+        "memoryPrompt": "What little moment would you like to keep?"
+      },
+      "ja": {
+        "name": "わたしの小さな世界",
+        "tagline": "お茶とおやつと、大好きなお友だち。",
+        "memoryPrompt": "今日はどんな小さなことを残そう？"
+      }
+    }
+  },
+  "garden": {
+    "schemaVersion": 1,
+    "id": "world-starter",
+    "name": "我的小世界",
+    "tagline": "花园里的面包香，和自己的慢时光。",
+    "environment": "garden",
+    "palette": {
+      "sky": "#eee7f0",
+      "ground": "#cad6ab",
+      "wall": "#fff4df",
+      "roof": "#b6a8c9",
+      "accent": "#e9a5ad"
+    },
+    "house": {
+      "name": "Flower Cottage"
+    },
+    "shop": {
+      "name": "Little Bakery",
+      "kind": "bakery",
+      "color": "#beabc9"
+    },
+    "characters": [
+      {
+        "id": "friend-bunny",
+        "name": "小棉",
+        "kind": "bunny",
+        "color": "#fff1dd",
+        "i18n": {
+          "en": {
+            "name": "Cotton"
+          },
+          "ja": {
+            "name": "コットン"
+          }
+        }
+      },
+      {
+        "id": "friend-bear",
+        "name": "小麦",
+        "kind": "bear",
+        "color": "#cfa27c",
+        "i18n": {
+          "en": {
+            "name": "Wheat"
+          },
+          "ja": {
+            "name": "ムギ"
+          }
+        }
+      }
+    ],
+    "menu": [
+      {
+        "id": "honey-bun",
+        "name": "蜂蜜小面包",
+        "color": "#e7bb76",
+        "i18n": {
+          "en": {
+            "name": "Honey bun"
+          },
+          "ja": {
+            "name": "はちみつパン"
+          }
+        }
+      },
+      {
+        "id": "berry-bun",
+        "name": "莓果点心",
+        "color": "#d59c98",
+        "i18n": {
+          "en": {
+            "name": "Berry treat"
+          },
+          "ja": {
+            "name": "ベリーのお菓子"
+          }
+        }
+      }
+    ],
+    "decor": [
+      {
+        "id": "plant-one",
+        "name": "窗边绿植",
+        "kind": "plant",
+        "color": "#8db897",
+        "x": -4.8,
+        "z": 1.4,
+        "i18n": {
+          "en": {
+            "name": "Window plant"
+          },
+          "ja": {
+            "name": "窓辺のグリーン"
+          }
+        }
+      },
+      {
+        "id": "flower-one",
+        "name": "一束小花",
+        "kind": "flower",
+        "color": "#eda5b5",
+        "x": -1.3,
+        "z": 2.8,
+        "i18n": {
+          "en": {
+            "name": "Little bouquet"
+          },
+          "ja": {
+            "name": "小さな花束"
+          }
+        }
+      },
+      {
+        "id": "cushion-one",
+        "name": "软软坐垫",
+        "kind": "cushion",
+        "color": "#e6bf86",
+        "x": -0.2,
+        "z": 3.3,
+        "i18n": {
+          "en": {
+            "name": "Soft cushion"
+          },
+          "ja": {
+            "name": "ふかふかクッション"
+          }
+        }
+      },
+      {
+        "id": "book-one",
+        "name": "日常小本子",
+        "kind": "book",
+        "color": "#87b4c3",
+        "x": -3.2,
+        "z": 3.8,
+        "i18n": {
+          "en": {
+            "name": "Everyday notebook"
+          },
+          "ja": {
+            "name": "日々のノート"
+          }
+        }
+      }
+    ],
+    "memoryPrompt": "今天，想留住哪件小事？",
+    "i18n": {
+      "en": {
+        "name": "My Little World",
+        "tagline": "Warm bread in the garden. A slower kind of day.",
+        "memoryPrompt": "What little moment would you like to keep?"
+      },
+      "ja": {
+        "name": "わたしの小さな世界",
+        "tagline": "庭に漂うパンの香り。自分だけのゆっくりした時間。",
+        "memoryPrompt": "今日はどんな小さなことを残そう？"
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "world-6d4f294c63e244ed",
+  "name": "灯笼茶院",
+  "tagline": "一壶茶，几盘点心，和喜欢的伙伴。",
+  "environment": "tea",
+  "palette": {
+    "sky": "#eee7db",
+    "ground": "#cbd6b0",
+    "wall": "#f7ead5",
+    "roof": "#759b88",
+    "accent": "#bd7776"
+  },
+  "house": {
+    "name": "Spring Cottage"
+  },
+  "shop": {
+    "name": "Little Tea House",
+    "kind": "tea",
+    "color": "#b98a74"
+  },
+  "characters": [
+    {
+      "id": "friend-bunny",
+      "name": "小棉",
+      "kind": "bunny",
+      "color": "#fff1dd",
+      "i18n": {
+        "en": {
+          "name": "Cotton"
+        },
+        "ja": {
+          "name": "コットン"
+        }
+      }
+    },
+    {
+      "id": "friend-bear",
+      "name": "团团",
+      "kind": "cat",
+      "color": "#cfaa8b",
+      "i18n": {
+        "en": {
+          "name": "Dumpling"
+        },
+        "ja": {
+          "name": "まる"
+        }
+      }
+    }
+  ],
+  "menu": [
+    {
+      "id": "osmanthus",
+      "name": "桂花糕",
+      "color": "#f1d393",
+      "i18n": {
+        "en": {
+          "name": "Osmanthus cake"
+        },
+        "ja": {
+          "name": "キンモクセイのお菓子"
+        }
+      }
+    },
+    {
+      "id": "redbean",
+      "name": "红豆糕",
+      "color": "#b97779",
+      "i18n": {
+        "en": {
+          "name": "Red bean cake"
+        },
+        "ja": {
+          "name": "あずきのお菓子"
+        }
+      }
+    },
+    {
+      "id": "matcha",
+      "name": "抹茶糕",
+      "color": "#b2c683",
+      "i18n": {
+        "en": {
+          "name": "Matcha cake"
+        },
+        "ja": {
+          "name": "抹茶のお菓子"
+        }
+      }
+    }
+  ],
+  "decor": [
+    {
+      "id": "plant-one",
+      "name": "窗边绿植",
+      "kind": "plant",
+      "color": "#8db897",
+      "x": -4.8,
+      "z": 1.4,
+      "i18n": {
+        "en": {
+          "name": "Window plant"
+        },
+        "ja": {
+          "name": "窓辺のグリーン"
+        }
+      }
+    },
+    {
+      "id": "flower-one",
+      "name": "一束小花",
+      "kind": "flower",
+      "color": "#cf7e78",
+      "x": -1.3,
+      "z": 2.8,
+      "i18n": {
+        "en": {
+          "name": "Little bouquet"
+        },
+        "ja": {
+          "name": "小さな花束"
+        }
+      }
+    },
+    {
+      "id": "cushion-one",
+      "name": "软软坐垫",
+      "kind": "cushion",
+      "color": "#e6bf86",
+      "x": -0.2,
+      "z": 3.3,
+      "i18n": {
+        "en": {
+          "name": "Soft cushion"
+        },
+        "ja": {
+          "name": "ふかふかクッション"
+        }
+      }
+    },
+    {
+      "id": "book-one",
+      "name": "日常小本子",
+      "kind": "book",
+      "color": "#87b4c3",
+      "x": -3.2,
+      "z": 3.8,
+      "i18n": {
+        "en": {
+          "name": "Everyday notebook"
+        },
+        "ja": {
+          "name": "日々のノート"
+        }
+      }
+    }
+  ],
+  "memoryPrompt": "今天，想留住哪件小事？",
+  "i18n": {
+    "en": {
+      "name": "Lantern Tea Garden",
+      "tagline": "A pot of tea, little treats, and your favorite company.",
+      "memoryPrompt": "What little moment would you like to keep?"
+    },
+    "ja": {
+      "name": "灯りのお茶庭",
+      "tagline": "お茶とおやつと、大好きなお友だち。",
+      "memoryPrompt": "今日はどんな小さなことを残そう？"
+    }
+  }
+}
